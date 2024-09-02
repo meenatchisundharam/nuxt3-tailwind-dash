@@ -1,5 +1,5 @@
 <template>
     <div class="text-app-white-700">
-       index
+       checking netlify deploy
     </div>
 </template>
