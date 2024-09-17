@@ -35,3 +35,59 @@ table{
         }
     }
  }
+
+ button { 
+    @apply transition-[0.3s] h-11 font-medium px-5 bg-theme-purple-950 rounded-lg hover:bg-theme-purple-950/50 border border-theme-purple-950 flex items-center gap-2;
+    &.green{
+        @apply bg-green-500 border border-green-500 hover:bg-green-500/80
+    }
+    &.small{
+        @apply h-8 px-3 text-xs;
+    }
+    &.large{
+        @apply h-14 px-7 text-lg;
+    }
+    &.blue {
+        @apply bg-blue-500 border border-blue-500 hover:bg-blue-500/80;
+      }
+      
+      &.orange {
+        @apply bg-orange-500 border border-orange-500 hover:bg-orange-500/80;
+      }
+      
+      &.red {
+        @apply bg-red-500 border border-red-500 hover:bg-red-500/80;
+      }
+      
+      &.black {
+        @apply bg-black border border-black hover:bg-black/80;
+      }
+      
+      &.gray {
+        @apply bg-gray-500 border border-gray-500 hover:bg-gray-500/80;
+      }
+      &.outlined {
+        @apply bg-transparent text-theme-purple-950 border-theme-purple-950 hover:bg-theme-purple-950;
+        @apply hover:text-white;
+
+        &.green{
+            @apply text-green-500 hover:text-white hover:bg-green-500/80 border border-green-500;
+        }
+        &.blue{
+            @apply text-blue-500 hover:text-white hover:bg-blue-500/80 border-blue-500;
+        }
+        &.orange{
+            @apply text-orange-500 hover:text-white hover:bg-orange-500/80 border-orange-500;
+        }
+        &.red{
+            @apply text-red-500 hover:text-white hover:bg-red-500/80 border-red-500;
+        }
+        &.black{
+            @apply text-black hover:text-white hover:bg-black/80 border-black;
+        }
+        &.gray{
+            @apply text-gray-500 hover:text-white hover:bg-gray-500/80 border-gray-500;
+        }
+    }
+    
+ }

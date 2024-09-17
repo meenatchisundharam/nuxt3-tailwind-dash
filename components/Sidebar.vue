@@ -149,6 +149,11 @@
         icon: "fa-solid fa-table-cells-large",
         route: "/forms",
       },
+      {
+        name: "Button",
+        icon: "fa-solid fa-table-cells-large",
+        route: "/Button",
+      },
     ],
   };
 }
