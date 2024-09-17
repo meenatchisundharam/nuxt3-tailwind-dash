@@ -1,5 +1,13 @@
 <template>
-    <div class="text-app-white-700">
-       checking netlify deploy
+    <div>
+      <div class="text-2xl font-bold mb-5">Dashboard</div>
+     <div>
+        <TitleCard title="INDEX">
+          
+            <template #body>
+            </template>
+        </TitleCard >
+        
+     </div>
     </div>
-</template>
+  </template>

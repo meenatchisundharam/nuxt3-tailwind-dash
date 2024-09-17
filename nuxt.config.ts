@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default ({
   compatibilityDate: '2024-04-03',
   modules: [
     '@nuxtjs/tailwindcss'
@@ -18,5 +18,6 @@ export default defineNuxtConfig({
         ],
     },
   },
+  css: ["~/asstes/css/main.scss"],
   devtools: { enabled: true }
 })
