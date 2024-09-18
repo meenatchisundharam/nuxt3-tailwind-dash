@@ -2,7 +2,7 @@
     <div>
       <div class="text-2xl font-bold mb-5">Charts</div>
       <div>
-        <TitleCard title="Google">
+        <TitleCard title="Chart Js">
           <template #body>
             <div class="flex flex-col">
               <canvas ref="myPieChart"></canvas>
