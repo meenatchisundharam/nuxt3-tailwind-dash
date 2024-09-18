@@ -155,9 +155,14 @@
         route: "/Button",
       },
       {
-        name: "model",
+        name: "Model",
         icon: "fa-solid fa-table-cells-large",
         route: "/Model",
+      },
+      {
+        name: "Chart",
+        icon: "fa-solid fa-table-cells-large",
+        route: "/chart",
       },
     ],
   };
